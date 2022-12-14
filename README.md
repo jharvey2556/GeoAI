@@ -16,7 +16,7 @@ To install GeoAI, follow these steps:
 2. Train your own weights for the object you want to detect. [Roboflow](https://blog.roboflow.com/yolov7-custom-dataset-training-tutorial/#training-a-custom-yolov7-model) has a well-written tutorial on how to do this.
 3. Run `python geoai.py` with the following arguments:
 
-```bash
+```
 usage: geoai.py [-h] [--weights WEIGHTS] [--locs LOCS] [--out OUT] [--conf CONF] [--detect DETECT] [--xpos XPOS]
 [--ypos YPOS] [--zoom ZOOM] [--nbt NBT]
 
@@ -34,7 +34,7 @@ optional arguments:
 ```
 
 For example, if you want to run the program with the `locs` file `locations.csv`, the weights file `example.pt`, and save the output to `out.csv`, you would run the following command:
-```py
+```
 python geoai.py --locs locations.csv --weights example.pt --out out.csv
 ```
 If you have any questions, feel free to contact me on Discord at pig ✧.*#8774.
