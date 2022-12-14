@@ -1,6 +1,6 @@
 # GeoAI
 
-GeoAI is a project that enables users to quickly download panoramas from given coordinates and sort them based on inference detections.
+GeoAI is a program that allows users to mass download thousands of panorama images and run a detection AI on them to sort the images based on whether a specified object is detected. This can be useful for a variety of applications, such as identifying and cataloging specific objects in large collections of images. The program uses advanced machine learning algorithms to accurately detect and classify the specified objects.
 
 ## Installation
 
