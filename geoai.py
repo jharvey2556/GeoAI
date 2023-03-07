@@ -19,7 +19,7 @@ parser.add_argument('--nbt', type=int, default=1, help='cbk nbt')
 opt = parser.parse_args()
 
 # key
-key = "AIzaSyBxen4xoe88RGY-vQPu72Hwur70E1P0Ri4"
+key = "AIzaSyDqRTXlnHXELLKn7645Q1L_5oc4CswKZK4"
 
 # paths
 img_path = "images/"
